@@ -17,8 +17,6 @@ Kit de utilidades de linha de comando pensado para o dia a dia de um **e-commerc
 
 A arquitetura separa a **lógica de negócio pura** (funções sem efeitos colaterais, fáceis de testar e importar em qualquer outro projeto) da **camada de interface (CLI)**. Ou seja: você pode pegar `generateQRCode()` ou `generatePassword()` e plugar direto numa API, num worker ou num outro CLI sem arrastar nada de `console` ou `prompt` junto.
 
-Este projeto foi desenvolvido como parte de um desafio da [DIO](https://www.dio.me/) e reformulado para portfólio.
-
 ## ✨ Funcionalidades
 
 - **Gerador de QR Code** — gera QR Code a partir de uma URL, direto no terminal (ASCII art), nos formatos normal ou compacto. Valida se o link é uma URL `http(s)` válida.
